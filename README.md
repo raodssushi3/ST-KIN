@@ -4,13 +4,10 @@ Codes for paper "A Knowledge Interaction Network for Multivariate Time Series Cl
 ## Framework
 
 ## Get Started
-1. Install Python >= 3.10, Pytorch = 1.9.1.
+1. Install Python = 3.10, Pytorch = 1.9.1.
 2. Download UEA dataset at https://timeseriesclassification.com.
-3. We will provide comprehensive training and testing scripts, upon the formal acceptance of our paper.
+3. We will publicly release the complete training and testing scripts (including loss functions), as well as the figures and experimental results data used in the paper.  upon the formal acceptance of our paper.
    
-"""
-If you have questions about this, please email us for (290092969@qq.com).
-"""
 
 
 
