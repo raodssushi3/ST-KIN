@@ -7,6 +7,7 @@ Code for the paper "A Knowledge Interaction Network for Multivariate Time Series
 4. we will release the complete training and evaluation scripts (including the loss functions), upon the formal acceptance of our paper.
 
 ## Run_Demo
+python Run_Demo.py
 
 ## Main Result
 Will be provided with the full release upon acceptance.
