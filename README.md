@@ -7,8 +7,8 @@ Code for the paper "A Knowledge Interaction Network for Multivariate Time Series
 4. We will release the training and evaluation scripts, upon the formal acceptance of our paper.
 
 ## Run_Demo
-We provide a runnable demo script that performs inference on sample data.
-python Run_Demo.py
+###We provide a runnable demo script that performs inference on sample data.
+###python Run_Demo.py
 
 ## Main Result
 Will be provided with the full release upon acceptance.
