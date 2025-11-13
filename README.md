@@ -4,7 +4,7 @@ Code for the paper "A Knowledge Interaction Network for Multivariate Time Series
 ## Get Started
 1. Install Python = 3.10, Pytorch = 1.9.1.
 2. Download dataset at https://timeseriesclassification.com.
-4. we will release the complete training and evaluation scripts (including the loss functions), upon the formal acceptance of our paper.
+4. we will release the training and evaluation scripts, upon the formal acceptance of our paper.
 
 ## Run_Demo
 python Run_Demo.py
