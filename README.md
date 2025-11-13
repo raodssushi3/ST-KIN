@@ -1,4 +1,4 @@
-<img width="350" height="156" alt="image" src="https://github.com/user-attachments/assets/d1981eec-6ea1-4c40-8e32-5f8bcd675afe" /># ST-KIN
+# ST-KIN
 Code for the paper "A Knowledge Interaction Network for Multivariate Time Series Classification based on Spatio-Temporal and Topological Features". 
 
 ## Get Started
