@@ -1,6 +1,3 @@
-import torch
-import torch.utils.data
-from torch.utils.data import TensorDataset
 from einops import rearrange
 from torch import nn, einsum
 import torch.nn.functional as F
@@ -21,5 +18,27 @@ class PatchMerging(nn.Module):
         return x
 
 
+def series_comp_fuc(data,scale):
+    if data.size(-1) % scale:
+        pad_size = (scale - data.size(-1) % scale) / 2
+        data = F.pad(data, (int(pad_size), ceil(pad_size)), mode='constant', value=0.0)
+    else:
+        data = data
+    return data
+
+
+
+class series_comp_cla(nn.Module):
+    def __init__(self, scale):
+        super(series_comp_cla, self).__init__()
+        self.scale = scale
+
+    def forward(self,x):
+        if x.size(-1) % self.scale:
+            pad_size = (self.scale - x.size(-1) % self.scale) / 2
+            x = F.pad(x, (int(pad_size), ceil(pad_size)), mode='constant', value=0.0)
+        else:
+            x = x
+        return x
 
 
