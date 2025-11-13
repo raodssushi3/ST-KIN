@@ -3,7 +3,7 @@ from torch import nn
 from grt import GraphTransformer
 from ddph import Topology
 from Information_Harmonization import fusion
-from function.utils import *
+from utils import *
 import torch.nn.functional as F
 from math import ceil
 
