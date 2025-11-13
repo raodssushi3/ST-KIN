@@ -1,8 +1,8 @@
 import torch
 from torch import nn
-from module.grt import GraphTransformer
-from module.ddph import Topology
-from module.Information_Harmonization import fusion
+from grt import GraphTransformer
+from ddph import Topology
+from Information_Harmonization import fusion
 from function.utils import *
 import torch.nn.functional as F
 from math import ceil
