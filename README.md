@@ -1,4 +1,3 @@
-# ST-KIN
 
 ## Get Started
 1. Install Python = 3.10, Pytorch = 1.9.1.
