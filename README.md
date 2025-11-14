@@ -1,5 +1,5 @@
 # ST-KIN
-Code for the paper "A Knowledge Interaction Network for Multivariate Time Series Classification based on Spatio-Temporal and Topological Features". 
+
 
 ## Get Started
 1. Install Python = 3.10, Pytorch = 1.9.1.
