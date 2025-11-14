@@ -1,15 +1,7 @@
-# ST-KIN
-Code for the paper "A Knowledge Interaction Network for Multivariate Time Series Classification based on Spatio-Temporal and Topological Features". 
 
 ## Get Started
 1. Install Python = 3.10, Pytorch = 1.9.1.
-2. Download dataset at https://timeseriesclassification.com.
-4. We will release the training and evaluation scripts, upon the formal acceptance of our paper.
+2. We will release the training and evaluation scripts, upon the formal acceptance of our paper.
 
-## Run_Demo
-python Run_Demo.py
-
-## Main Result
-Will be provided with the full release upon acceptance.
 
 
